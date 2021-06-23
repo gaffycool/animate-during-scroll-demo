@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/menu_save_apng"
+            android:icon="@drawable/ic_save_white_24dp"
+            android:title="@string/save"
+            app:iconTint="@color/control"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/menu_create_apng"
+            android:icon="@drawable/ic_play_arrow_white_24dp"
+            android:title="@string/create"
+            app:iconTint="@color/control"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/menu_share_apng"
+            android:icon="@drawable/ic_share_share_24dp"
+            android:title="@string/share"
+            app:iconTint="@color/control"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/menu_set_all_duration"
+            android:icon="@drawable/ic_access_time_white_24dp"
+            android:title="@string/set_all_duration"
+            app:iconTint="@color/control"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/menu_clear"
+            android:title="@string/clear"
+            app:iconTint="@color/control"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/menu_first_frame_in_anim"
+            android:checkable="true"
+            android:title="@string/menu_first_frame_in_anim"
+            app:showAsAction="never|withText" />
+    <item
+            android:id="@+id/menu_optimise"
+            android:checkable="true"
+            android:title="@string/menu_optimise"
+            app:showAsAction="never|withText" />
+</menu>

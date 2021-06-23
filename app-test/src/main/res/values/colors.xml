@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/primary</color>
+
+    <color name="primary">#81c784</color>
+
+    <color name="secondary">#ff5722</color>
+
+    <color name="text">#000</color>
+
+    <color name="background">#FFFFFF</color>
+
+    <color name="control">#fff</color>
+
+    <color name="ic_launcher_background">@color/primary</color>
+</resources>
